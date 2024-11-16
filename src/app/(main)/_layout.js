@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Stack } from 'expo-router'
 
-const RootLayout = () => {
+const MainLayout = () => {
   return (
     <Stack>
         <Stack.Screen name="index" />
@@ -10,6 +10,6 @@ const RootLayout = () => {
   )
 }
 
-export default RootLayout
+export default MainLayout
 
 const styles = StyleSheet.create({})
