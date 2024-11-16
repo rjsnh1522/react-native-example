@@ -1,6 +1,4 @@
 import { Stack } from 'expo-router/stack';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { Drawer } from 'expo-router/drawer';
 import {useFonts, 
   Poppins_400Regular, 
   Poppins_600SemiBold, 
@@ -28,11 +26,11 @@ export default function Layout() {
     Poppins_800ExtraBold
   })
   console.log(loaded)
-  useEffect(()=>{
-    if (loaded){
-      SplashScreen.hideAsync();
-    }
-  }, [loaded])
+  // useEffect(()=>{
+  //   if (loaded){
+  //     SplashScreen.hideAsync();
+  //   }
+  // }, [loaded])
 
   return (
     <Stack>
