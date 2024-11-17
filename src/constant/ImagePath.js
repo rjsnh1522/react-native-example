@@ -1,7 +1,7 @@
 
 
 const AllImages = {
-    react_logo: require("@/src/assets/images/Icon.png"),
+    logo: require("@/src/assets/images/Icon.png"),
     partial_logo: require("@/src/assets/images/Icon.png"),
 }
 
