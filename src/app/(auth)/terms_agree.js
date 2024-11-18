@@ -8,7 +8,7 @@ import { router } from 'expo-router'
 
 const TermsAgree = () => {
   const onAgree = () => {
-    router.navigate("login")
+    router.navigate("(auth)/login")
   }
 
 
