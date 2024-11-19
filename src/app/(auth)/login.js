@@ -61,7 +61,8 @@ const Login = () => {
       }
       <View style={styles.footer} >
         <ButtonComp title={"Next"} 
-        style={styles.buttonStyle} textStyle={styles.buttonTextStyle} />
+        style={styles.buttonStyle} 
+        textStyle={styles.buttonTextStyle} onPress={onNextButtonClick}/>
 
       </View>
       </SafeAreaView>
