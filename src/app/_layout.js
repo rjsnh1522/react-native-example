@@ -14,12 +14,12 @@ const RootLayout = () => {
     }, 4000);
   }, [])
 
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
 
   return (
     <>
     <Stack screenOptions={{headerShown: false}}/>
-      { isLogin ? <Redirect href={"/(main)"} /> : <Redirect href={"/(auth)"} />}
+      { isLogin ? <Redirect href={"/(tabs)"} /> : <Redirect href={"/(auth)"} />}
 
     </>
   )
